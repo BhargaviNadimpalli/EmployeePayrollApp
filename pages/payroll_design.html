@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet"></linl>
-    <title>Employee Payroll Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet"></link>
     <link href="../css/form_design.css" rel="stylesheet">
+    <title>Employee Payroll Form</title>
+    <script defer src="../js/payroll.js"></script>
+    <script defer src="../js/employee_payroll.js"></script>
+
 </head>
 <body>
     <header class="header-content header">
@@ -17,8 +20,9 @@
             </div>
         </div>
     </header>
-    <div class="form-content">
-        <form class="form" action="#" onsubmit="save(event);return false">
+    <!-- <div class="form-content"> -->
+        <div id="formId" class="form-content">
+            <form class="form" action="#" onreset="resetForm()" onsubmit="save()">
             <div class="form-head">Employee Payroll Form</div>
             <div class="row-content">
                 <label class="label text" for="name">Name</label>
