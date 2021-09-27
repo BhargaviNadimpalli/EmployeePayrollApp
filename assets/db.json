@@ -1,0 +1,52 @@
+{
+    "employee": [
+      {
+        "name": "Bhargavi",
+        "gender": "female",
+        "departMent": [
+          "HR"
+        ],
+        "salary": "30000",
+        "startDate": "1 Jan 2020",
+        "notes": "",
+        "id": 1604589551457,
+        "profileUrl": "../assets/image1.png"
+      },
+      {
+        "name": "Bhargavi latha",
+        "gender": "female",
+        "departMent": [
+          "HR"
+        ],
+        "salary": "30000",
+        "startDate": "1 Jan 2020",
+        "notes": "",
+        "id": 1604589594363,
+        "profileUrl": "../assets/image2.png"
+      },
+      {
+        "name": "bhagi",
+        "gender": "female",
+        "departMent": [
+          "HR"
+        ],
+        "salary": "30000",
+        "startDate": "1 Jan 2020",
+        "notes": "",
+        "id": 1604589699566,
+        "profileUrl": "../assets/image5.png"
+      },
+      {
+        "name": "preethi",
+        "gender": "female",
+        "departMent": [
+          "HR"
+        ],
+        "salary": "30000",
+        "startDate": "1 Jan 2020",
+        "notes": "",
+        "id": 1604589731061,
+        "profileUrl": "../assets/image7.png"
+      }
+    ]
+  }
